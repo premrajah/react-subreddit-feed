@@ -1,0 +1,25 @@
+.Article {
+    padding: 30px 15px;
+    box-sizing: border-box;
+}
+
+
+
+.Article a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
+
+.Article h3 {
+    color: #212121;
+}
+
+.Article:nth-child(2n) {
+    background-color: #f3f3f3;
+}
+
+.Article:hover {
+    background-color: pink;
+}
